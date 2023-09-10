@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-TASK7</title>
+    <style>
+      .outer {
+        height: 440px;
+        width: 730px;
+        border: 1px solid purple;
+        background-color: #9c254d;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .inner {
+        height: 400px;
+        width: 500px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #662549;
+        color: white;
+      }
+      .content {
+        height: 400px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+      }
+      .submit {
+        width: 100%;
+        font-size: 20px;
+        color: rgb(44, 44, 44);
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      .submit:hover {
+        box-shadow: 3px 3px 3px rgb(255, 214, 176);
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="email"] {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <div class="content">
+          <table>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="name">Name:</label>
+              </td>
+
+              <td><input type="text" id="name" placeholder="your name" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="email">Email: </label>
+              </td>
+              <td>
+                <input type="email" id="username" placeholder="your email" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="password">Password:</label>
+              </td>
+              <td><input type="password" id="password" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="phoneno">Phone Number:</label>
+              </td>
+              <td><input type="text" id="phoneno" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="gender">Gender:</label>
+              </td>
+              <td>
+                Male:<input type="radio" name="radans" value="male" />
+                Female:<input type="radio" name="radans" value="female" />
+                Other:<input type="radio" name="radans" value="other" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="gender">language:</label>
+              </td>
+              <td>
+                <select name="language" id="language">
+                  <option value="">Select language</option>
+                  <option value="Hindi">Hindi</option>
+                  <option value="Marathi">Marathi</option>
+                  <option value="English">English</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="zipcode">Zip Code:</label>
+              </td>
+              <td><input type="text" id="zipcode" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" id="label">
+                <label for="about">About:</label>
+              </td>
+              <td>
+                <textarea
+                  name="about"
+                  id="about"
+                  cols="23"
+                  rows="3"
+                  placeholder="Write about yourself..."
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="submit" class="submit" value="Register" />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

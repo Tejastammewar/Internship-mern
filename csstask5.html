@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-TASK5</title>
+    <style>
+      .main {
+        background-color: #ebe76c;
+        height: 400px;
+        width: 500px;
+        display: flex;
+        padding: 10px;
+        border: 1px dotted black;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .me {
+        height: 24px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: white;
+        margin-left: 10px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 17px;
+      }
+      a:hover {
+        color: purple;
+      }
+      .black {
+        background-color: black;
+        height: 26px;
+        width: 15px;
+        padding-top: 3px;
+      }
+      .mera1,
+      .mera2,
+      .mera3,
+      .mera4 {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        width: 120px;
+        padding-left: 4px;
+        padding-top: 3px;
+      }
+      .menu {
+        margin-top: 30px;
+        width: 180px;
+      }
+      .content {
+        color: #662549;
+      }
+      b {
+        font-size: 30px;
+      }
+      .spacing {
+        line-height: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <div class="mera1">
+          <div class="me box1">
+            <a href="#">Home Page</a>
+          </div>
+          <div class="black"></div>
+        </div>
+
+        <div class="mera2">
+          <div class="me box2">
+            <a href="#">Musings</a>
+          </div>
+          <div class="black"></div>
+        </div>
+
+        <div class="mera3">
+          <div class="me box3">
+            <a href="#">My town</a>
+          </div>
+          <div class="black"></div>
+        </div>
+
+        <div class="mera4">
+          <div class="me box4">
+            <a href="#">Links</a>
+          </div>
+          <div class="black"></div>
+        </div>
+      </div>
+      <div class="content">
+        <b>My First Styled Page</b>
+        <p>Welcome to my styled page!</p>
+        <p>
+          It lacks images,but atleast it has style.nd it has links,even if they
+          don't go anywhere...
+        </p>
+        <p>There should be more here ,but i don't knowhat yet.</p>
+        <hr />
+        <p class="spacing">
+          <i>Made 9th Sept 2023<br />by myself.</i>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

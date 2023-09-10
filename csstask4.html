@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        border: 1.5px solid black;
+        height: 400px;
+        width: 550px;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .boxess {
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+      }
+      .boxess:hover {
+        width: 60%;
+      }
+      .box1 {
+        height: 50px;
+        width: 45px;
+        background-color: green;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        margin-right: 40px;
+      }
+      .box2 {
+        height: 50px;
+        width: 45px;
+        background-color: #279eff;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .box3 {
+        height: 50px;
+        width: 45px;
+        background-color: red;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .box4 {
+        height: 50px;
+        width: 45px;
+        background-color: #393e46;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .text {
+        display: block;
+        height: 200px;
+        margin-top: 30px;
+      }
+      b {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="boxes">
+        <button class="boxess box1"></button>
+        <button class="boxess box2"></button>
+        <button class="boxess box3"></button>
+        <button class="boxess box4"></button>
+      </div>
+      <div class="text">
+        <b>Hoverable Sidenav Buttons</b>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+      </div>
+    </div>
+  </body>
+</html>
