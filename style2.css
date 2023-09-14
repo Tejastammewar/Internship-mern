@@ -1,0 +1,64 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+  display: block;
+  width: 230px;
+}
+li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+#ver {
+  border: 1px solid black;
+  padding: 12px 10px 0px 10px;
+  width: 230px;
+}
+#hor {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px 0px 0px 10px;
+  margin-top: 0px;
+  height: 43px;
+  position: relative;
+  top: 95px;
+}
+#inn {
+  background-color: lightgray;
+  height: 30px;
+}
+td {
+  border-right: 1px solid blue;
+  padding: 3.5px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+}
+td:hover {
+  background-color: gray;
+  color: white;
+}
+#inn a:hover {
+  color: white;
+}
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#forh {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
